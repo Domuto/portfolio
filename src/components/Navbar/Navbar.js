@@ -145,10 +145,10 @@ export const Navbar = () => {
         <a
           data-navbar-item
           className={styles.logo}
-          aria-label="Hamish Williams, Designer"
+          aria-label="Daniel Omuto Designer"
           onClick={handleMobileNavClick}
         >
-          <Monogram highlight />
+          < highlight />
         </a>
       </RouterLink>
       <NavToggle onClick={() => dispatch({ type: 'toggleMenu' })} menuOpen={menuOpen} />

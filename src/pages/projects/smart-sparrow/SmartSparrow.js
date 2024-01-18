@@ -70,9 +70,9 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Designing the future of education';
+const title = 'Designing the future of websites';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'I worked as the web delevoper lead on a major projects inculding NeverBrokeAgain LLC, Urban Outfitters, and Texas Medicaid.';
 const roles = [
   'Art Direction',
   'UX and UI Design',
@@ -104,7 +104,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://tr.ee/2mdM3kOmS8"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -129,15 +129,9 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>The problem</ProjectSectionHeading>
+            <ProjectSectionHeading>Who Am I</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+            I am a Cum Laude Computer Science Graduate. Georgia Tech Master Student, Published Medium Author, Freelance Developer. I am a dedicated and focused team player with excellent communication skills, reliable, flexible, and hardworking, always ready to learn and apply learned information. A few of my skills include Web Development, Software Development, Cloud Computing, Website Design, Data Analysis, Database Management, Python, Javascript, HTML/XML/CSS, Data Visualization
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
