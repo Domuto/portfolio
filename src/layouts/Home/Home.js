@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modler'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -69,7 +69,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
+        description="Design portfolio of Daniel Omuto — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
       <Intro
@@ -83,10 +83,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Designing the future of the web"
+        description="Designing in ways never seen before"
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://domuto-kg69.vercel.app/works"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -104,10 +104,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="3D Modeling and Filter Development"
+        description="Filter Design and development for Spark AR, Tiktok, SnapChat, etc."
+        buttonText="View work"
+        buttonLink="https://www.instagram.com/the_danielomuto/reels/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -128,10 +128,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Virtual Websites"
+        description="Why have a boring website when you can have a world"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://www.tiktok.com/@danielomuto/video/7243121307146030379?is_from_webapp=1&sender_device=pc&web_id=7296978391034168862"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
