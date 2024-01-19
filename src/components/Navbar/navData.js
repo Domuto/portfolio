@@ -9,28 +9,19 @@ export const navLinks = [
   },
   {
     label: 'Articles',
-    pathname: '/articles',
+    pathname: '',
   },
   {
     label: 'Contact',
-    pathname: '/contact',
+    pathname: 'https://tr.ee/2mdM3kOmS8',
   },
 ];
 
 export const socialLinks = [
-  {
-    label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
-    icon: 'twitter',
-  },
-  {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
-  },
+  
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/Domuto',
     icon: 'github',
   },
 ];
